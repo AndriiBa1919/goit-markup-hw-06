@@ -30,13 +30,13 @@ img {
 }
 
 .container {
-    width: 1158px;
+    width: 320px;
     padding: 0 15px;
-    /* todo */
     margin: 0 auto;
 }
 
 /* *============== HEADER ================ */
+
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -102,8 +102,6 @@ img {
     color: #404bbf;
 }
 
-/* ! 1 УТОЧНИТЬ ПО АКТИВАЦИИ ПСЕВДОЕЛЕМЕНТА */
-
 .first {
     position: relative;
     color: #404bbf;
@@ -119,7 +117,6 @@ img {
     bottom: -1px;
 }
 
-/* !====================== */
 .contact {
     font-style: normal;
 }
@@ -153,14 +150,15 @@ img {
 .title {
     text-align: center;
     background-color: #2E2F42;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    max-width: 1440px;
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-phone.jpg);
+    /* max-width: 1440px; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     align-items: center;
-    margin: 0 auto;
+    
+    
 }
 
 .title-basic {
@@ -170,7 +168,8 @@ img {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    max-width: 216px;
+    /* max-width: 496px; */
     margin: 0 auto;
 }
 
