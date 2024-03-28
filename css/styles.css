@@ -35,6 +35,18 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+}
+
 /* *============== HEADER ================ */
 
 
@@ -150,8 +162,7 @@ img {
 .title {
     text-align: center;
     background-color: #2E2F42;
-    padding: 72px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-phone.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/phone/Dark-bg-phone.jpg);
     /* max-width: 1440px; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,7 +180,7 @@ img {
     text-align: center;
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    max-width: 216px;
+    min-width: 216px;
     /* max-width: 496px; */
     margin: 0 auto;
     margin-bottom: 72px;
@@ -201,9 +212,34 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    
+    .title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-desc/Dark-bg-tab.jpg);
+        padding: 112px 136px;
+        
+    }
+
+    .title-basic {
+        margin-bottom: 36px;
+        font-size: 56px;
+        min-width: 496px;
+    }
+        
 }
 
+@media screen and (min-width: 1158px) {
+    .title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-desc/people-office.jpg);
+        padding: 188px 316px;
+        
+    }
+
+    .title-basic {
+        margin-bottom: 48px;
+        font-size: 56px;
+        max-width: 496px;
+    }
+        
+}
 
 /* *=============== STRATEGY ===================== */
 
