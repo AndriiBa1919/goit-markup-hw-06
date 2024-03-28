@@ -30,8 +30,8 @@ img {
 }
 
 .container {
-    width: 320px;
-    padding: 0 15px;
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
 }
 
@@ -157,20 +157,22 @@ img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     align-items: center;
+    padding: 72px 52px;
     
     
 }
 
 .title-basic {
     color: #fffffF;
-    font-size: 56px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
     text-align: center;
-    line-height: 1.07;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     max-width: 216px;
     /* max-width: 496px; */
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .btn {
@@ -188,7 +190,6 @@ img {
     height: 56px;
     border: none;
     cursor: pointer;
-    margin-top: 46px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -198,6 +199,11 @@ img {
 .btn:focus {
     background-color: #404BBF;
 }
+
+@media screen and (min-width: 768px) {
+    
+}
+
 
 /* *=============== STRATEGY ===================== */
 
