@@ -196,6 +196,10 @@ img {
     gap: 40px;
 }
 
+.mob-nav-link.studio {
+    color: #404bbf;
+}
+
 .mob-nav-link {
     font-weight: 700;
     font-size: 36px;
@@ -217,6 +221,10 @@ img {
     flex-direction: column;
     gap: 24px;
     margin-bottom: 48px;
+}
+
+.mob-contact-link.tel {
+    color: #404bbf;
 }
 
 .mob-contact-link {
@@ -1130,18 +1138,19 @@ img {
     }
 
 
+    .foot .container {
+        width: 584px;
+    }
 
     .foot-wrap {
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0;
-        
+        /* max-width: 584px; */
     }
 
     .logo-foot-wrap {
         align-items: start;
         justify-content: start;
-        margin-left: 108px;
         gap: 16px;
     }
 
@@ -1160,9 +1169,6 @@ img {
         margin: 0;
     }
 
-    .foot-subscribe {
-        margin-left: 108px;
-    }
 
     .footer-form {
         flex-direction: row;
