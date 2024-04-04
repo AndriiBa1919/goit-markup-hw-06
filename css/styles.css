@@ -574,7 +574,6 @@ img {
 .foot {
     background-color: #2E2F42;
     padding: 96px 0;
-    max-width: 1440px;
 }
 
 .foot-wrap {
@@ -726,6 +725,7 @@ img {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
+    opacity: 0.6;
 } 
 
 
@@ -1274,6 +1274,10 @@ img {
     .foot-subscribe {
         margin-left: 80px;
         gap: 24px;
+    }
+
+    .subscribe-input::placeholder {
+        opacity: 1;
     }
 
         
