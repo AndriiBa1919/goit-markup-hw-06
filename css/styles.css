@@ -293,7 +293,6 @@ img {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     max-width: 216px;
-    /* max-width: 496px; */
     margin: 0 auto 72px;
 }
 
@@ -322,6 +321,13 @@ img {
     background-color: #404BBF;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/phone/Dark-bg-phone-2x.jpg);
+  }
+}
 
 /* *=============== STRATEGY ===================== */
 
@@ -1016,10 +1022,6 @@ img {
         max-width: 768px;
     }
 
-    /* .header .container {
-        justify-content: space-around;
-    } */
-
     .logo-web {
     margin-right: 120px;
     }
@@ -1073,6 +1075,14 @@ img {
         font-size: 56px;
         max-width: 496px;
     }
+
+    @media screen and (min-resolution: 192dpi) {
+        .hero-section {
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)),
+            url(../images/tab/Dark-bg-tab-2x.jpg);
+        }
+      }
 
     .futures-basic {
         flex-direction: row;
@@ -1204,6 +1214,14 @@ img {
         font-size: 56px;
         gap: 24px;
     }
+
+    @media screen and (min-resolution: 192dpi) {
+        .hero-section {
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)),
+            url(../images/desc/people-office-2x.jpg);
+        }
+      }
 
     .futures {
         padding: 120px 0;
