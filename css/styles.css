@@ -285,6 +285,14 @@ img {
     padding: 72px 0;
 }
 
+@media screen and (min-resolution: 192dpi) {
+    .title {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/phone/Dark-bg-phone-2x.jpg);
+    }
+  }
+
 .title-basic {
     color: #fffffF;
     font-size: 36px;
@@ -321,13 +329,6 @@ img {
     background-color: #404BBF;
 }
 
-@media screen and (min-resolution: 192dpi) {
-  .hero-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-      url(../images/phone/Dark-bg-phone-2x.jpg);
-  }
-}
 
 /* *=============== STRATEGY ===================== */
 
@@ -970,7 +971,6 @@ img {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-    /* margin-left: 4px; */
 }
 
 .privacy-span {
@@ -980,6 +980,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
     display: inline-flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -1077,7 +1078,7 @@ img {
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .hero-section {
+        .title {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
             url(../images/tab/Dark-bg-tab-2x.jpg);
@@ -1216,7 +1217,7 @@ img {
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .hero-section {
+        .title {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
             url(../images/desc/people-office-2x.jpg);
